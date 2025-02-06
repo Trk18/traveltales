@@ -1,0 +1,13 @@
+# Backend Files
+
+/springapp/.mvn
+/springapp/target
+/springapp/src/test
+/junit
+
+
+#Front End Files
+/reactapp/node_modules
+/reactapp/package-lock.json
+/reactapp/src/apiConfig.js
+/react

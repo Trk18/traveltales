@@ -1,0 +1,76 @@
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Align elements to the left */
+    align-items: center;
+    /* background-color:linear-gradient(45deg,rgba(0,38,77,0.8)); */
+    background: linear-gradient(60deg,rgb(77, 48, 48), rgba(152, 152, 154, 0.8));
+    padding: 10px 20px;
+    position: sticky;
+    top:0;
+    z-index: 1000;
+}
+ 
+.navbar h1 {
+    color: white;
+    margin: 0;
+    font-size: 1.8em;
+}
+
+.nav-links{
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+}
+ 
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover{
+    background-color: #555;
+    color: black;
+    border-radius: 5px;
+}
+ 
+.dropdown-link {
+    position: relative;
+    cursor: pointer;
+    padding: 10px 15px;
+    color: white;
+}
+ 
+.dropdown-content {
+    display: none; 
+    position: absolute;
+    background-color: #000000; 
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(202, 198, 198, 0.267);
+    z-index: 1;
+    top: 100%;
+    right: 0;
+    border-radius: 20px;
+}
+
+.dropdown-link:hover .dropdown-content{
+    display: block;
+}
+ 
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; 
+    text-align: left;
+}
+
+.dropdown-content a:hover{
+    background-color: #555;
+}
+
+.dropdown-link:hover .dropDown-content {
+    display: block;
+}
