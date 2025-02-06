@@ -126,7 +126,7 @@ const PlaceForm = ({ onSubmit }) => {
  
     return (
         <div className="form-background">
-           <image src='/home/coder/project/workspace/reactapp/public/mountains-6544522.jpg' />
+           <img src='/mountains-6544522.jpg' />
             <div className="form-container">
                 <div className="header">
                     <button onClick={() => window.history.back()}>Back</button>
